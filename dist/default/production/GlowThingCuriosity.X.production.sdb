@@ -1,0 +1,531 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1708 ]
+[d frameptr 6 ]
+"42 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\floor.c
+[v _floor floor `(d  1 e 3 0 ]
+"254 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\frexp.c
+[v _frexp frexp `(d  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"18 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\rand.c
+[v _srand srand `(v  1 e 1 0 ]
+"12
+[v _rand rand `(i  1 e 2 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\sin.c
+[v _sin sin `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"70 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\main.c
+[v _Heartbeat Heartbeat `(f  1 e 3 0 ]
+"82
+[v _Generate_Desired Generate_Desired `(v  1 e 1 0 ]
+"101
+[v _Step Step `(v  1 e 1 0 ]
+"125
+[v _Go_To_Desired Go_To_Desired `(v  1 e 1 0 ]
+"137
+[v _main main `(v  1 e 1 0 ]
+"71 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"83
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"95
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"51 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"63 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+"80
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+"63 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+"80
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+"57 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+"74
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+"63 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"83
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+[s S65 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"581 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f1708.h
+[s S74 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CCPIF 1 0 :1:2 
+]
+[u S77 . 1 `S65 1 . 1 0 `S74 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES77  1 e 1 @17 ]
+"933
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"952
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"971
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S97 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"992
+[s S101 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S109 . 1 `S97 1 . 1 0 `S101 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES109  1 e 1 @28 ]
+"1041
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1085
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1123
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S239 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1377
+[s S246 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S253 . 1 `S239 1 . 1 0 `S246 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES253  1 e 1 @149 ]
+"1492
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1550
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1607
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1678
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @154 ]
+"1980
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2024
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2062
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2790
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2834
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2872
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3941
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3990
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4028
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"5480
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5524
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"5562
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"5629
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"5648
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @658 ]
+"5667
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"5828
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @664 ]
+"5847
+[v _CCPR2H CCPR2H `VEuc  1 e 1 @665 ]
+"5866
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @666 ]
+[s S22 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 P3TSEL 1 0 :2:4 
+`uc 1 P4TSEL 1 0 :2:6 
+]
+"6044
+[s S27 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 P3TSEL0 1 0 :1:4 
+`uc 1 P3TSEL1 1 0 :1:5 
+`uc 1 P4TSEL0 1 0 :1:6 
+`uc 1 P4TSEL1 1 0 :1:7 
+]
+[u S36 . 1 `S22 1 . 1 0 `S27 1 . 1 0 ]
+[v _CCPTMRSbits CCPTMRSbits `VES36  1 e 1 @670 ]
+"7165
+[v _PWM3DCL PWM3DCL `VEuc  1 e 1 @1559 ]
+"7200
+[v _PWM3DCH PWM3DCH `VEuc  1 e 1 @1560 ]
+"7269
+[v _PWM3CON PWM3CON `VEuc  1 e 1 @1561 ]
+"8348
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3599 ]
+[s S276 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+]
+"8358
+[u S278 . 1 `S276 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES278  1 e 1 @3599 ]
+[s S290 . 1 `uc 1 RA0PPS 1 0 :5:0 
+]
+"8681
+[u S292 . 1 `S290 1 . 1 0 ]
+[v _RA0PPSbits RA0PPSbits `VES292  1 e 1 @3728 ]
+[s S283 . 1 `uc 1 RA1PPS 1 0 :5:0 
+]
+"8700
+[u S285 . 1 `S283 1 . 1 0 ]
+[v _RA1PPSbits RA1PPSbits `VES285  1 e 1 @3729 ]
+[s S297 . 1 `uc 1 RA2PPS 1 0 :5:0 
+]
+"8719
+[u S299 . 1 `S297 1 . 1 0 ]
+[v _RA2PPSbits RA2PPSbits `VES299  1 e 1 @3730 ]
+"12816
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\rand.c
+[v _randx randx `l  1 s 4 randx ]
+"57 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\main.c
+[v _Pwm_1_Desired Pwm_1_Desired `f  1 e 3 0 ]
+"58
+[v _Pwm_1_Current Pwm_1_Current `f  1 e 3 0 ]
+"59
+[v _Pwm_1_Step Pwm_1_Step `f  1 e 3 0 ]
+"60
+[v _Pwm_2_Desired Pwm_2_Desired `f  1 e 3 0 ]
+"61
+[v _Pwm_2_Current Pwm_2_Current `f  1 e 3 0 ]
+"62
+[v _Pwm_2_Step Pwm_2_Step `f  1 e 3 0 ]
+"63
+[v _Pwm_3_Desired Pwm_3_Desired `f  1 e 3 0 ]
+"64
+[v _Pwm_3_Current Pwm_3_Current `f  1 e 3 0 ]
+"65
+[v _Pwm_3_Step Pwm_3_Step `f  1 e 3 0 ]
+"67
+[v _timeSinceLastUpdate timeSinceLastUpdate `ui  1 e 2 0 ]
+"68
+[v _heartbeat heartbeat `ui  1 e 2 0 ]
+"137
+[v _main main `(v  1 e 1 0 ]
+{
+"162
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\rand.c
+[v _srand srand `(v  1 e 1 0 ]
+{
+[v srand@x x `ui  1 p 2 0 ]
+"9
+} 0
+"71 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"95
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"63 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"83
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+{
+"87
+} 0
+"57 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"63 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"63 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"51 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"94
+[v PIN_MANAGER_Initialize@state state `uc  1 a 1 0 ]
+"109
+} 0
+"83 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"125 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\main.c
+[v _Go_To_Desired Go_To_Desired `(v  1 e 1 0 ]
+{
+"135
+} 0
+"101
+[v _Step Step `(v  1 e 1 0 ]
+{
+"123
+} 0
+"74 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pwm3.c
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM3_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 78 ]
+"81
+} 0
+"80 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pwm2.c
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM2_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 78 ]
+"87
+} 0
+"80 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\mcc_generated_files/pwm1.c
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM1_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 78 ]
+"87
+} 0
+"70 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\main.c
+[v _Heartbeat Heartbeat `(f  1 e 3 0 ]
+{
+[v Heartbeat@SetVal SetVal `f  1 p 3 75 ]
+"80
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\sin.c
+[v _sin sin `(d  1 e 3 0 ]
+{
+"30
+[v sin@x2 x2 `d  1 a 3 71 ]
+[v sin@y y `d  1 a 3 65 ]
+"31
+[v sin@sgn sgn `uc  1 a 1 74 ]
+"13
+[v sin@f f `d  1 p 3 61 ]
+"15
+[v sin@coeff_a coeff_a `DCC[5]d  1 s 15 coeff_a ]
+"23
+[v sin@coeff_b coeff_b `DCC[4]d  1 s 12 coeff_b ]
+"57
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\floor.c
+[v _floor floor `(d  1 e 3 0 ]
+{
+"15
+[v floor@i i `d  1 a 3 33 ]
+"16
+[v floor@expon expon `i  1 a 2 36 ]
+"13
+[v floor@x x `d  1 p 3 29 ]
+"30
+} 0
+"254 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\frexp.c
+[v _frexp frexp `(d  1 e 3 0 ]
+{
+[v frexp@value value `d  1 p 3 0 ]
+[v frexp@eptr eptr `*.4i  1 p 1 3 ]
+"274
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 9 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 13 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 8 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 0 ]
+"73
+} 0
+"42 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+{
+"44
+[v ___altoft@sign sign `uc  1 a 1 7 ]
+[v ___altoft@exp exp `uc  1 a 1 6 ]
+"42
+[v ___altoft@c c `l  1 p 4 0 ]
+"57
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 3 0 ]
+{
+"6
+[v eval_poly@res res `d  1 a 3 36 ]
+"4
+[v eval_poly@x x `d  1 p 3 29 ]
+[v eval_poly@d d `*.25DCCd  1 p 2 32 ]
+[v eval_poly@n n `i  1 p 2 34 ]
+"12
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"18 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+{
+[v ___ftsub@f2 f2 `f  1 p 3 55 ]
+[v ___ftsub@f1 f1 `f  1 p 3 58 ]
+"27
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"82 C:\Users\Alec\MPLABXProjects\GlowThingCuriosity.X\main.c
+[v _Generate_Desired Generate_Desired `(v  1 e 1 0 ]
+{
+"87
+[v Generate_Desired@sum sum `f  1 a 3 67 ]
+"86
+[v Generate_Desired@rand3 rand3 `f  1 a 3 64 ]
+"85
+[v Generate_Desired@rand2 rand2 `f  1 a 3 61 ]
+"84
+[v Generate_Desired@rand1 rand1 `f  1 a 3 58 ]
+"99
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+{
+"17
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+{
+[v ___ftneg@f1 f1 `f  1 p 3 0 ]
+"20
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 11 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 15 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 14 ]
+[v ___ftmul@exp exp `uc  1 a 1 10 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 0 ]
+[v ___ftmul@f2 f2 `f  1 p 3 3 ]
+"157
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 0 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 3 ]
+"13
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 50 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 54 ]
+[v ___ftdiv@exp exp `uc  1 a 1 53 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 49 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 39 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 42 ]
+"86
+} 0
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 28 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 27 ]
+[v ___ftadd@sign sign `uc  1 a 1 26 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 16 ]
+[v ___ftadd@f2 f2 `f  1 p 3 19 ]
+"148
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 10 ]
+"32
+[v ___awtoft@c c `i  1 p 2 5 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
